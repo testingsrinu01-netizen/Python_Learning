@@ -18,3 +18,4 @@ print(df.shape); # (rows, columns)
 print(df.columns);  # list of column names
 print(df.keys());
 print(df.dropna(axis=1));
+print(df);
