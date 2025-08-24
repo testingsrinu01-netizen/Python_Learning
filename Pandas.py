@@ -16,6 +16,6 @@ print(df.head(2)); #Print 2 rows from top of table.
 print(df.tail(1)); #Print 1 rows from bottom of table.
 print(df.shape); # (rows, columns)
 print(df.columns);  # list of column names
-print(df.keys());
+print('Keys from table ::- ', df.keys());
 print(df.dropna(axis=1));
 print(df);
