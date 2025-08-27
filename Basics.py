@@ -17,3 +17,5 @@ print(flag_isActive);
 print(type(flag_isActive));
 print(type(res));
 print(type(strRes));
+
+print(x+str1);  #Error - cannot concatenate str and int.
