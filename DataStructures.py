@@ -31,8 +31,13 @@ carsDiff = cars.difference(carsCopy);
 print(carsDiff);
 cars.remove('Skoda')
 print(cars);
+print(carsCopy);
+carsCopy.remove('Hyundai')
+print('------')
+print(cars);
+print(carsCopy);
 
-#dict - Key Value Pairs.
+#dict - Key Value Pairs. Python 3.7 (officially), dictionaries preserve insertion order.  (Ordered &  Mutable collection)
 students = {"name":"alice", "age":20, "city":"ohio", "pincode":606010, "result":"PASS"};
 print(students["name"]);
 students["grade"] = "A";

@@ -18,4 +18,4 @@ print(type(flag_isActive));
 print(type(res));
 print(type(strRes));
 
-print(x+str1);  #Error - cannot concatenate str and int.
+print(x+str1);  #Error - cannot concatenate str and int. unsupported operand type(s) for +: 'int' and 'str'
